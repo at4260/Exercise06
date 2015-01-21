@@ -16,8 +16,10 @@ def restaurant_rev():
     # get the keys and sorts the keys
     # creates a list of the keys that it sorts
     alpha = sorted(rest_scores)
-    print alpha
+    #print alpha
     # loop through each key=value pair and print the statement
 
     for key in alpha:
-    print "Restaurant %s is rated at a %s." % (key, rest_scores[key])
+        print "Restaurant %s is rated at a %s." % (key, rest_scores[key])
+
+restaurant_rev()
